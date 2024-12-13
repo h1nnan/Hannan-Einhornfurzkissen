@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4648bd52-afbd-441b-a298-f41ae28904cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bestellung.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Einhornfurzkissen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ShopClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ShopServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utills/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utills/Connection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utills/List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utills/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utills/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ShopServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShopServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +19,25 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "h1nnan"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/h1nnan/Hannan-Einhornfurzkissen.git",
+    "accountId": "6899a7a3-6425-421e-9c3b-34b20c1bc200"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2q9WK7kgtXzPrB0zEAAbg4SJfX0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -40,7 +47,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/buttha/IdeaProjects/EinhornFurzkissen/src"
   }
