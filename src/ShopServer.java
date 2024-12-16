@@ -1,5 +1,6 @@
 import Utills.List;
 import Utills.Server;
+import java.util.Scanner;
 public class ShopServer extends Server {
     private List<Bestellung> bestellungen;
 
@@ -15,6 +16,7 @@ public class ShopServer extends Server {
     public void processMessage(String pClientIP, int pClientPort, String pMessage) {
         String[] nachrichtTeil = pMessage.split(":");
         if(nachrichtTeil[0].equals("Einhornfurzkissen")) {
+           // System.out.println(this.send(pClientIP,pClientPort,"Welche Größe soll es haben?"));
             this.send(pClientIP, pClientPort, "Die Groesse ist" + nachrichtTeil[1] + ", die Farbe ist " + nachrichtTeil[2]+" und es kostet 19,99 Euro! Bitte bestätigen Sie die Bestellung.");
         }else if(nachrichtTeil[0].equals("BESTAETIGUNG")) {
             if(nachrichtTeil[1].equals("ja")) {
@@ -25,7 +27,7 @@ public class ShopServer extends Server {
                 this.send(pClientIP, pClientPort, "Bitte geben Sie ja oder nein ein.");
             }
         } else if (nachrichtTeil[0].equals("ABMELDEN")) {
-            closeConnection(pClientIP, pClientport);
+            closeConnection(pClientIP, pClientPort);
         }else{
             this.send(pClientIP, pClientPort, "Bitte korri- gieren Sie Ihre Eingabe.");
         }
